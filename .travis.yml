@@ -2,6 +2,9 @@
 
 dist: xenial
 language: python
+arch:
+ - amd64
+ - ppc64le
 matrix:
   include:
     - python: 2.7
